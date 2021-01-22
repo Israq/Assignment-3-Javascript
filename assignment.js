@@ -1,3 +1,5 @@
+//https://github.com/Israq/Assignment-3-Javascript
+
 function kilometerToMeter(value) {
     //1Km = 1000m
     var meter = value*1000;
