@@ -34,13 +34,29 @@ function hotelCost(days){
         var thirdP  = remainP * 50;
         price       = (firstP + secondP + thirdP); 
     }
+
     return price;
 
 }
 result3 = hotelCost(30);
 console.log(result3);
 
+function megaFriend(name) {
+    var largest;
+    var count = 0;
+    for(var i = 0;i<name.length;i++){
+        if(name[i].length > count){
+            count = name[i].length;
+            largest = name[i];
+        }
+    }
 
+    return largest;
+
+}
+name = ["israq","ragib israq","syed ragib israq"];
+result4 = megaFriend(name);
+console.log(result4);
 
 
 
