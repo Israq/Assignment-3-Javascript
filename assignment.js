@@ -56,7 +56,7 @@ function megaFriend(name) {
     return largest;
 
 }
-name = ["israq","ragib israq","syed ragib israq"];
+name = ["israq","stephan","ashlee"];
 result4 = megaFriend(name);
 console.log(result4);
 
